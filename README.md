@@ -1,2 +1,2 @@
-# DCIT-101-WebPage
-An image search webpage 
+# Search
+A front-end for Google Search, Google Image Search, and Google Advanced Search.
