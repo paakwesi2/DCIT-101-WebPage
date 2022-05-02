@@ -1,0 +1,115 @@
+body {
+  background-image: url("question.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container1 {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.container1 .nav {
+  margin-left: 40%;
+  width: 0%;
+  height: 10%;
+}
+.container1 .nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container1 .nav ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10%;
+  width: 100%;
+}
+.container1 .main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container1 .main form {
+  width: 100%;
+}
+.container1 .main form .input .controller {
+  border-radius: 5px;
+  background-color: white;
+  width: 700px;
+}
+.container1 .main form .input input {
+  border-radius: 10px;
+}
+.container1 .main form .search {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container1 .main form .search button a {
+  text-decoration: none;
+  color: black;
+}
+.container1 .main form .search button:hover {
+  border: 1px solid rgb(206, 202, 202);
+}
+.container1 .main form .search input:hover {
+  border: 1px solid rgb(206, 202, 202);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.container .nav {
+  margin-left: 70%;
+  width: 0%;
+  height: 10%;
+}
+.container .nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .nav ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10%;
+  width: 100%;
+}
+.container .main {
+  margin-left: -7%;
+  display: flex;
+  flex-direction: column;
+}
+.container .main h5 {
+  color: rgb(201, 29, 29);
+}
+.container .main form .btn {
+  float: right;
+}
+.container .main form label {
+  font-size: 14px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 3%;
+}/*# sourceMappingURL=style.css.map */
